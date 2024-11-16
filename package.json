@@ -1,0 +1,17 @@
+{
+  "name": "line-pm-sensor-bot",
+  "version": "1.0.0",
+  "description": "LINE bot to get PM data from ThingSpeak",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "@line/bot-sdk": "^7.0.0",
+    "body-parser": "^1.19.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
